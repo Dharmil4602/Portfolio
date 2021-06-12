@@ -1,0 +1,178 @@
+
+
+/* Navigation Section */
+
+#navbar
+{
+    overflow: hidden;
+  flex-direction: column;
+}
+
+@media(max-width: 575px)
+{
+    #navbar ul
+    {
+        display: block;
+    }
+
+    #navbar ul li a
+    {
+      margin: 10px 0px;
+    }
+}
+
+#navbar ul
+{
+    margin-bottom: 15px;
+}
+
+#navbar ul li a
+{
+    font-size: 20px;
+}
+
+.social
+{
+    display: none;
+}
+
+.h-primary
+{
+    font-size: 3rem;
+}
+
+/* Home Section */
+
+#home
+{
+    margin-top: 50px;
+    padding: 5px 20px;
+    /* margin-bottom: 10px; */
+    height: 400px;
+}
+
+#home p{
+    font-size: 20px;
+}
+
+/* About Section */
+
+#about
+{
+    overflow: hidden;
+    /* height: 200px; */
+}
+
+#about h1
+{
+    margin-top: 35px;
+}
+
+.about-container
+{
+    flex-direction: column;
+}
+
+
+.about-pic
+{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+
+}
+
+.about-me
+{
+    font-size: 20px;
+}
+
+
+/* Work Section */
+
+#work
+{
+    overflow: hidden;
+    height: 800px;
+}
+
+.work-container
+{
+    flex-direction: column;
+    height: 620px;
+}
+
+.my-work
+{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.work-pic
+{
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+
+/* Connect Section */
+
+.item1
+{
+    display: block;
+}
+
+#connect
+{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#connect h1
+{
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+.center2
+{
+    padding: 10px;
+}
+
+#insta1
+{
+    height: 80px;
+    width: 80px;
+    margin: 0px 10px;
+}
+
+#github1
+{
+height: 80px;
+width: 80px;
+margin: 0px 10px;
+
+}
+
+#fb1
+{
+height: 80px;
+width: 80px;
+margin: 0px 10px;
+
+}
+
+#linkedin1
+{
+height: 80px;
+width: 80px;
+margin: 0px 10px;
+
+}

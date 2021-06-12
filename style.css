@@ -1,0 +1,297 @@
+/* CSS RESET */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background: url('Background-5.jpg') no-repeat;
+    background-size: cover;
+}
+
+body::before
+{
+    content: "";
+    /* background: url('/Background-4.jpg') no-repeat center/cover; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+}
+
+/* Navigation Bar */
+
+#navbar
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 0px;
+}
+
+#navbar::before
+{
+    content: "";
+    background-color: rgb(177, 177, 177);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+}
+
+#logo
+{
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+#logo img
+{
+    height: 100px;
+    width: 150px;
+    margin: 5px 10px;
+}
+
+/* List Styling */
+
+#navbar ul
+{
+    display: flex;
+    margin-top: 5px;
+}
+
+#navbar ul li
+{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#navbar ul li a
+{
+    display: block;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar ul li a:hover
+{
+    color: aliceblue;
+    background-color: black;
+}
+
+#insta
+{
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    top: 35px;
+}
+
+#github
+{
+    position: absolute;
+    display: inline-block;
+    right: 70px;
+ height: 50px;
+    width: 50px;
+    top: 35px;
+}
+
+#fb
+{
+    position: absolute;
+    display: inline-block;
+    right: 130px;
+ height: 50px;
+    width: 50px;
+    top: 35px;
+}
+
+#linkedin
+{
+    position: absolute;
+    display: inline-block;
+    right: 190px;
+ height: 50px;
+    width: 50px;
+    top: 35px;
+}
+
+/* Home Section */
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 80px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+/* #home::before
+{
+    content: "";
+    background: url('/Background-1.jpg') no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .6;
+} */
+
+#home h1
+{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+#home p
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 30px;
+    border: 4px solid black;
+    border-radius: 40px;
+    font-family: 'Acme', sans-serif;
+    background-color: rgb(247, 220, 215);
+    box-shadow: -10px 10px 10px black;
+}
+
+/* Uitility Classes */
+
+.h-primary
+{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+/* About Section */
+
+#about
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 700px; */
+}
+
+#about h1
+{
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+.center
+{
+   padding: 20px;
+}
+
+.about-container
+{
+    display: flex;
+}
+
+.about-me
+{
+    padding: 20px 40px;
+    background-color: rgb(214, 247, 240);
+    font-size: 1.5rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* padding: 25px; */
+    border: 4px solid black;
+    border-radius: 40px;
+    font-family: 'Acme', sans-serif;
+    box-shadow: -10px 10px 10px black;
+}
+
+.about-pic
+{
+    padding: 10px 40px;
+    height: 500px;
+    width: 500px;
+}
+
+/* Work Section */
+
+#work
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+#work h1
+{
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+.center1
+{
+    padding: 20px;
+}
+
+.work-container
+{
+    display: flex;
+}
+
+.my-work
+{
+    margin: 50px 50px 50px 80px;
+    background-color: rgb(228, 200, 168);
+    /* left: 0px; */
+    padding: 50px;
+    font-size: 1.5rem;
+    border: 4px solid black;
+    border-radius: 40px;
+    font-family: 'Acme', sans-serif;
+    box-shadow: -10px 10px 10px black;
+}
+
+.work-pic
+{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+/* Connect Section */
+
+.item1
+{
+    display: none;
+}
+
+#connect
+{
+    display: none;
+}
